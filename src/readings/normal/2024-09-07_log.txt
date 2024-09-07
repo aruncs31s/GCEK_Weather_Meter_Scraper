@@ -1,0 +1,1 @@
+2024-09-07 21:55:41 Temperature 0.0 , Humidity 0.0 ,Wind_speed 0.0 , Wind_direction 270.0 , Rain Volume 0.0
