@@ -8,6 +8,6 @@ Python based Webscraper for the GCEK Weather Monitor
 
 - This data stored in [Here](src/readings/) can be used for either predicting how to future values will be using ML or Function Approximation etc
 
-### POC
+### Working
 
 ![image](./images/working.png?raw=true)
