@@ -3,6 +3,7 @@ from datetime import datetime
 
 import requests as req
 
+# Replace it with station ip addr
 url = "http://192.168.230.5/data"
 
 current_date = datetime.now().strftime("%Y-%m-%d")
