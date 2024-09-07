@@ -1,3 +1,9 @@
+"""
+* Author : Arun CS
+* Github : https://github.com/aruncs31s/GCEK_Weather_Meter_Scraper
+* Date : 2024-09-07 YYYY-MM-DD
+"""
+
 import time
 from datetime import datetime
 
