@@ -2,4 +2,12 @@
 
 Python based Webscraper for the GCEK Weather Monitor
 
-![](./images/working.png?raw=true)
+- This project is connected with this [Git repo](https://github.com/aruncs31s/ESP32_MeshNet_For_Node_To_Gateway_Communication)
+
+- Checkout latest branch for latest release
+
+- This data stored in [Here](src/readings/) can be used for either predicting how to future values will be using ML or Function Approximation etc
+
+### POC
+
+![image](./images/working.png?raw=true)
