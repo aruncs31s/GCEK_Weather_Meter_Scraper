@@ -1,0 +1,7 @@
+Time , Temperature  , Humidity ,Wind_speed , Wind_direction  , Rain Volume 01:08:39  Temperature 0.0 , Humidity 0.0 ,Wind_speed 0.0 , Wind_direction 270.0 , Rain Volume 0.0
+01:08:41  Temperature 0.0 , Humidity 0.0 ,Wind_speed 0.0 , Wind_direction 270.0 , Rain Volume 0.0
+01:10:11  Temperature 0.0 , Humidity 0.0 ,Wind_speed 0.0 , Wind_direction 270.0 , Rain Volume 0.0
+01:10:13  Temperature 0.0 , Humidity 0.0 ,Wind_speed 0.0 , Wind_direction 270.0 , Rain Volume 0.0
+01:10:15  Temperature 0.0 , Humidity 0.0 ,Wind_speed 0.0 , Wind_direction 270.0 , Rain Volume 0.0
+01:12:04  Temperature 0.0 , Humidity 0.0 ,Wind_speed 0.0 , Wind_direction 270.0 , Rain Volume 0.0
+01:12:06  Temperature 0.0 , Humidity 0.0 ,Wind_speed 0.0 , Wind_direction 270.0 , Rain Volume 0.0

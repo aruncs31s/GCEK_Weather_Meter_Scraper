@@ -4,7 +4,7 @@ from datetime import datetime
 import requests as req
 
 # Replace it with station ip addr
-url = "http://192.168.230.5/data"
+url = "http://172.16.32.8/data"
 
 current_date = datetime.now().strftime("%Y-%m-%d")
 
@@ -17,12 +17,17 @@ def set_file(new_date):
 
 def get_reading(current_date, output_file, output_file_csv):
     try:
+        with open(output_file_csv, "a") as f:
+            f.write(
+                f"Time,Temperature,Humidity,Wind_speed,Wind_direction,Rain Volume\n"
+            )
+
         response = req.get(url)
         # Continuously read the data
         while True:
             # NOTE: This is a continues measurement so it should reset or save to new file every new day
             # TODO: Implement the above thing
-            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            timestamp = datetime.now().strftime("%H:%M:%S")
             data_json = response.json()
             data = [
                 data_json["temperature"],
@@ -33,7 +38,7 @@ def get_reading(current_date, output_file, output_file_csv):
             ]
             with open(output_file, "a") as f:
                 f.write(
-                    f"{timestamp} Temperature {data[0]} , Humidity {data[1]} ,Wind_speed {data[2]} , Wind_direction {data[3]} , Rain Volume {data[4]}\n"
+                    f"{timestamp}  Temperature {data[0]} , Humidity {data[1]} ,Wind_speed {data[2]} , Wind_direction {data[3]} , Rain Volume {data[4]}\n"
                 )
             with open(output_file_csv, "a") as f:
                 f.write(

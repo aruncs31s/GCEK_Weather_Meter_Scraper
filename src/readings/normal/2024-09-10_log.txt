@@ -1,0 +1,2 @@
+16:14:56  Temperature 0.0 , Humidity 0.0 ,Wind_speed 0.0 , Wind_direction 112.5 , Rain Volume 0.0
+16:14:58  Temperature 0.0 , Humidity 0.0 ,Wind_speed 0.0 , Wind_direction 112.5 , Rain Volume 0.0

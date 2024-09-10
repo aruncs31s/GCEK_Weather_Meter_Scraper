@@ -1,4 +1,4 @@
-# GCEK_Weather_Meter_Scraper
+# GCEK_Weather_Meter_Scraper v1.1
 
 Python based Webscraper for the GCEK Weather Monitor
 
@@ -11,3 +11,7 @@ Python based Webscraper for the GCEK Weather Monitor
 ### Working
 
 ![image](./images/working.png?raw=true)
+
+#### Changes
+
+- Give title to reading
